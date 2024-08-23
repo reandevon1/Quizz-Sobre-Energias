@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que Tipo de Energia Você É?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="QUE TIPO DE ENERGIA EU SOU.png" alt="Logo do Quiz" class="logo">
+        <h1>Que Tipo de Energia Você É?</h1>
+        <div id="quiz-container">
+            <div id="question-container">
+                <!-- As perguntas serão inseridas aqui pelo JavaScript -->
+            </div>
+            <button id="nextButton" onclick="nextQuestion()">Próxima</button>
+            <button id="resultButton" style="display:none;" onclick="showResult()">Ver Resultado</button>
+        </div>
+        <div id="result" style="display:none;">
+            <h2>Seu Resultado:</h2>
+            <p id="result-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
